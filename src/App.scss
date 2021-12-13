@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  top: 0%;
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  .links {
+    position: relative;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    color: antiquewhite;
+  }
+}
+
+.dashboard {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  .box {
+    padding: 5%;
+    background-color: burlywood;
+    border-radius: 15px;
+    .title {
+      font-family: "Courier New", Courier, monospace;
+      padding-bottom: 5%;
+    }
+    .result {
+      font-family: "Courier New", Courier, monospace;
+      text-align: center;
+    }
+  }
+}
